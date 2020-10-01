@@ -1,0 +1,30 @@
+/*! This is the main layout theme for the entire website*/
+
+.site-main-heading{
+    text-align: center;
+    color: #000000 !important;
+    display: block;
+    font-size: 4em;
+    font-weight: 700;
+    padding: 2%;
+  }
+
+.navbar-custom {
+    background-color: red;
+  }
+
+.navbar-items-custom{
+    font-size: 30px !important;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.text-test {
+    font-size: 100px;
+}
+
+.coming-soon {
+    font-size: 50px;
+    margin-top: 100px;
+    color: rgb(96, 130, 231);
+}
