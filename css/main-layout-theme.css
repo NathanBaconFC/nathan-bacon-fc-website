@@ -28,3 +28,90 @@
     margin-top: 100px;
     color: rgb(96, 130, 231);
 }
+
+.custom-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1.5em;
+}
+
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 50%;
+    float: right;
+  }
+  .intro .intro-text {
+    width: 35%;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 40%;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .intro-reversed .intro-img-reversed {
+    width: 50%;
+  }
+  .intro-reversed .intro-text-reversed {
+    width: 35%;
+    margin-top: 0rem;
+    margin-right: 2rem;
+    float: right;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro-reversed .intro-text-reversed {
+    width: 40%;
+  }
+}
+
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.page-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  padding-top: 5%;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: rgb(0, 60, 255);
+  font-weight: normal;
+}
+
+.section-grey {
+  background-color: rgb(236, 236, 236);
+}
+
+.textbox-grey-opaque {
+  background-color: rgba(236, 236, 236, 0.808);
+}
+.img-home{
+  max-width: 50%;
+  height: auto;
+}
